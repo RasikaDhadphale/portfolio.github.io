@@ -1,0 +1,129 @@
+body{
+	background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url("../images/city1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%
+}
+
+h1{
+	text-align: center;
+	color: #762304;
+}
+nav{
+	text-align: center;
+}
+
+
+nav a{
+	text-decoration: none;
+	margin-right: 4%;
+	color: #000000;
+	font-weight: bold;
+	padding: 0.5%;
+}
+nav a:hover{
+	color: #BC4114;
+	border-bottom: 2px solid #BC4114;
+	padding: 0.5%;
+}
+
+.shadow{
+	box-shadow: 0 8px 6px -6px rgba(80,80,80,0.9);
+	margin: -2% -0.5% 0 -0.5%;
+	padding: 2% 0 2% 0;
+}
+
+section{
+	text-align: center;
+}
+h2{
+	text-align: center;
+	font-size: 50px;	
+	color: #762304;	
+	margin-top: 5%;
+}
+.start{
+	text-decoration: none;
+	color: #BC4114;	
+	
+}
+.box{
+	width: 11%;
+    height:25px;
+    background:#FFF;
+    margin:40px auto;
+}
+.shadow1{
+	
+	display: inline-block;
+	padding: 0.5% 0;
+	text-align: center;
+	font-size: large;
+	margin-top: 4%;
+	
+	-moz-box-shadow: 0 0 5px 5px #888;
+	-webkit-box-shadow: 0 0 5px 5px #888;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+	
+	 position: relative;
+}
+
+.shadow1:before, .shadow1:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 5px;
+  width: 80%;
+  top: 30%;
+  max-width:300px;
+  -webkit-box-shadow: 0 14px 8px #000;
+  -moz-box-shadow: 0 14px 8px #000;
+  box-shadow: 0 14px 8px #000;
+  -webkit-transform: rotate(-8deg);
+  -moz-transform: rotate(-8deg);
+  -o-transform: rotate(-8deg);
+  -ms-transform: rotate(-8deg);
+  transform: rotate(-8deg);
+}
+.shadow1:after
+{
+  -webkit-transform: rotate(8deg);
+  -moz-transform: rotate(8deg);
+  -o-transform: rotate(8deg);
+  -ms-transform: rotate(8deg);
+  transform: rotate(8deg);
+  right: 5px;
+  left: auto;
+}
+
+.fa {
+  padding: 1% 0 0 0;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 -0.8%;
+}
+
+.fa:hover {
+    color: #BC4114;
+}
+
+.fa-facebook-f {
+  color: #000000;
+}
+
+.fa-instagram {
+  color: #000000;
+}
+
+.fa-twitter {
+  color: #000000;
+}
+
+.fa-pinterest-p {
+  color: #000000;
+}
+
